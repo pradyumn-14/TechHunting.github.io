@@ -1,0 +1,68 @@
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+    border: 1px solid #000000;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color,
+ .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid #000000;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url('https://th.bing.com/th/id/OIP._PcTxKxW7qsdr3UKCT1yWwHaE8?w=258&h=180&c=7&o=5&pid=1.7') center;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid #000000;
+    padding: 10px;
+    height: 370px;
+    text-align: center;
+    flex: 4;
+    flex-wrap: flex;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+    margin: 25px;
+}
+
+.container-5 img {
+    margin: 10px;
+    width: 110px;
+    height: 140px;
+}
